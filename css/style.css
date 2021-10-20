@@ -1,0 +1,200 @@
+/*Common Css Starts*/
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*Common Css End*/
+/*Header Start*/
+header {
+    padding: 15px 0;
+    background: #fefeff;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+div.wrapper {
+    width: 90%;    
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+div.logo {
+    float: left;
+    width: 7%;
+    margin-top: 12px;  
+}
+
+div.logo img {
+    width: 100%;    
+  }
+
+nav.menu {
+    float: right;
+    width: 45%;    
+    margin-top: 2px;
+}
+
+nav.menu ul {
+    float: right;
+}
+
+nav.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+nav.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 30px;    
+}
+
+nav.menu ul li a:last-child {
+    padding-right: 0;
+}
+
+nav.menu ul li a:hover {
+    color: #0c66f7;
+    font-weight: bold;
+}
+/*Header End*/
+/*Banner Start*/
+section.banner div.wrapper2 {
+    width: 55%;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.banner div.wrapper2 div.b-content h1 {
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+section.banner div.wrapper2 div.b-content h1 span {
+    color: #0c66f7;
+}
+
+section.banner div.wrapper2 div.b-content div.b-img img {
+    padding: 20px 0;
+    width: 65%;
+}
+section.banner div.wrapper2 div.b-content div.b-img img:hover {
+    transform: scale(1.1);
+}
+/*Banner End*/
+
+/*Subscriber Starts*/
+section.subscriber {
+    padding: 25px 0;
+}
+
+section.subscriber div.wrapper3 {
+    width: 55%;
+    
+    margin: 0 auto;
+    min-height: 200px;    
+}
+
+section.subscriber div.wrapper3 div.subscribers {
+    width: 49%;
+    float:left;    
+}
+
+section.subscriber div.wrapper3 div.subscribers h1 {
+    font-size: 40px;
+    text-align: right;
+    color: #F15767;
+    line-height: 25px;
+    margin: 45px 0px 0 0;
+    
+}
+
+section.subscriber div.wrapper3 div.subscribers p {
+    text-align: right;
+    font-size: 14px;
+}
+
+section.subscriber div.wrapper3 div.completion {
+    width: 49%;
+    float: right;
+}
+
+section.subscriber div.wrapper3 div.completion h1 {
+    font-size: 40px;
+    text-align: left;
+}
+/*Subscriber Ends*/
+
+/*Services Starts*/
+section.services {
+    padding: 25px 0;
+}
+
+section.services div.wrapper4 { 
+    margin: 0 auto; 
+    width: 80%;       
+}
+
+section.services div.wrapper4 div.service div.box1,
+section.services div.wrapper4 div.service div.box2, 
+section.services div.wrapper4 div.service div.box3 {
+    border-radius: 15px;
+    display: inline-block;
+    width: 26.66%;
+    height: 350px;
+    margin-left: 20px;
+    padding: 20px;    
+}
+
+section.services div.wrapper4 div.service div.box1 {
+    background: #FDEBED;
+}
+
+section.services div.wrapper4 div.service div.box2 {
+    background: #EBF9F4;
+}
+
+section.services div.wrapper4 div.service div.box3 {
+    background: #FFF7E8;
+}
+
+section.services div.wrapper4 div.service div.box1:hover,
+section.services div.wrapper4 div.service div.box2:hover, 
+section.services div.wrapper4 div.service div.box3:hover {
+    box-shadow: 5px 10px #0c66f74f;
+}
+
+section.services div.wrapper4 div.service div.box1 img,
+section.services div.wrapper4 div.service div.box2 img,
+section.services div.wrapper4 div.service div.box3 img {
+    width: 100%;
+}
+
+section.services div.wrapper4 div.service div.box1 h1,
+section.services div.wrapper4 div.service div.box2 h1,
+section.services div.wrapper4 div.service div.box3 h1 {
+    font-size: 20px;
+}
+/*Services Ends*/
+
+/*Footer Starts*/
+footer.quick-footer {
+    background: #008AFF;
+    min-height: 100px;
+    text-align: center;
+    color:ivory;
+    font-size: 13px;
+}
+
+footer.quick-footer p {
+    padding: 40px 0 0 0;
+    letter-spacing: 1.5px;
+}
+
+footer.quick-footer p span {
+    font-weight: 800;
+    font-size: 15px;
+}
+
+/*Footer Ends*/
